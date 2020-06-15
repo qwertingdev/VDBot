@@ -5,5 +5,4 @@ This is a bot for VK, lol
 by qwerting vk.com/qwertingofficial
 Вот кста и русский ага
 Делал бота более двух месяцев на REG.ru, а потом уже и на robochat.io
-да
-Я пошёл агааааааааааааааааааааааа
+
