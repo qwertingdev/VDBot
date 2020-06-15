@@ -1,0 +1,2043 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style type="text/css" id="alertifyCSS"></style>
+    <meta charset="utf-8">
+    <title>Robochat.io - конструктор ботов ВК</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <link rel="stylesheet" href="1%20%D1%81%D1%82%D1%80_files/db.css">
+
+    <link rel="shortcut icon" href="https://robochat.io/img/favicon/favicon.ico?v=1.2" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://robochat.io/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="https://robochat.io/img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="manifest" href="https://robochat.io/manifest.json">
+    <link rel="mask-icon" href="https://robochat.io/img/favicon/safari-pinned-tab.svg" color="#263033">
+
+    <meta name="description" content="Как создать бота для группы ВК? В Робочате можно бесплатно сделать бота отвечающего на сообщения.">
+    <meta name="keywords" content="робочат, бот для вк, бот вконтакте">
+
+    <meta property="og:url" content="https://robochat.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Robochat.io — создайте бота для группы ВК бесплатно">
+    <meta property="og:description" content="Как создать бота для группы ВК? В Робочате можно бесплатно сделать бота отвечающего на сообщения.">
+    <meta property="og:image" content="/img/link_preview.jpg">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Robochat.io — создайте бота для группы ВК бесплатно">
+    <meta name="twitter:description" content="Как создать бота для группы ВК? В Робочате можно бесплатно сделать бота отвечающего на сообщения.">
+    <meta name="twitter:image" content="/img/link_preview.jpg">
+
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-navbutton-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
+
+    <meta id="csrftoken" name="dDVHcTJXbS8zdml1T3VlZ2x1eUFZQT09" content="SWx4ZksvR0czbFZwaHVHSHE2M2x1dz09">
+    <!-- Google Tag Manager -->
+<script type="text/javascript" async="" src="1%20%D1%81%D1%82%D1%80_files/analytics.js"></script><script type="text/javascript" async="" src="1%20%D1%81%D1%82%D1%80_files/tag.js"></script><script async="" src="1%20%D1%81%D1%82%D1%80_files/gtm.js"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TSP2QV6');</script>
+<!-- End Google Tag Manager -->
+
+<script type="text/javascript" async="" src="1%20%D1%81%D1%82%D1%80_files/openapi.js"></script></head>
+<body id="page-body">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSP2QV6"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- ======= .layout STARTS ======= -->
+<div class="layout  " id="page-layout">
+    <div class="main_layout">
+        
+
+
+
+<header id="header" class=" " data-user-id="103351">
+    <div class="header__container">
+        <div class="header__bot-selector">
+            <div class="header__logo">
+                <a href="https://robochat.io/dashboard" class="inner-link"></a>
+                                    <div class="text-tooltip text-tooltip--left">
+                        Назад в панель
+                    </div>
+                            </div>
+                        <div class="header__back-arrow">
+                <a href="https://robochat.io/dashboard" class="inner-link"></a>
+            </div>
+            <div class="community-selector-wrapper" id="header-chat-bot-selector" data-template-id="457792">
+                
+
+                                <div class="community-selector " data-id="254583" data-checked="1592212725" id="current-bot" data-tooltip="" data-app-id="6615643" data-group-id="194773049">
+                    <img src="1%20%D1%81%D1%82%D1%80_files/Oe2nzl5PYrE.jfif" alt="" class="avatar">
+                                        <div class="label">
+                        VredDesign БОТ                    </div>
+                    <div class="subtext">
+                                                    VredDesign                                                
+                    </div>
+                    <div class="community-select-arrow"></div>
+                    <div class="community-select__list" data-tooltip-ignore="" id="header-chat-bots-list"></div>
+                </div>
+                
+
+                <div class="ui-tooltip mobile-768 ui-tooltip--action top" data-tutorial-tooltip="1">
+                    <button class="close-btn js-close-tooltip-btn">
+                    <span class="text-tooltip text-tooltip--top left">
+                        Скрыть это уведомление
+                    </span>
+                    </button>
+                    <p class="title">
+                        Переключайтесь на лету
+                    </p>
+                    <p>
+                        Нажмите на этот блок, чтобы открыть список шаблонов и быстро между ними
+                        переключаться. Здесь же можно подключить новые сообщества.
+                    </p>
+                </div>
+
+            </div>
+            
+            <div class="mobile-menu-trigger" id="mobile-menu-trigger"></div>
+            <nav class="header__mobile-nav" data-tooltip=""></nav>
+            <ul class="header__mobile-nav-list" data-tooltip-ignore="" id="mobile-nav-list"><li class="js-nav-link active"><a href="https://robochat.io/bot?"><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px">
+<g>
+	<g>
+		<path d="M454.2,189.101l-33.6-5.7c-3.5-11.3-8-22.2-13.5-32.6l19.8-27.7c8.4-11.8,7.1-27.9-3.2-38.1l-29.8-29.8
+			c-5.6-5.6-13-8.7-20.9-8.7c-6.2,0-12.1,1.9-17.1,5.5l-27.8,19.8c-10.8-5.7-22.1-10.4-33.8-13.9l-5.6-33.2
+			c-2.4-14.3-14.7-24.7-29.2-24.7h-42.1c-14.5,0-26.8,10.4-29.2,24.7l-5.8,34c-11.2,3.5-22.1,8.1-32.5,13.7l-27.5-19.8
+			c-5-3.6-11-5.5-17.2-5.5c-7.9,0-15.4,3.1-20.9,8.7l-29.9,29.8c-10.2,10.2-11.6,26.3-3.2,38.1l20,28.1
+			c-5.5,10.5-9.9,21.4-13.3,32.7l-33.2,5.6c-14.3,2.4-24.7,14.7-24.7,29.2v42.1c0,14.5,10.4,26.8,24.7,29.2l34,5.8
+			c3.5,11.2,8.1,22.1,13.7,32.5l-19.7,27.4c-8.4,11.8-7.1,27.9,3.2,38.1l29.8,29.8c5.6,5.6,13,8.7,20.9,8.7c6.2,0,12.1-1.9,17.1-5.5
+			l28.1-20c10.1,5.3,20.7,9.6,31.6,13l5.6,33.6c2.4,14.3,14.7,24.7,29.2,24.7h42.2c14.5,0,26.8-10.4,29.2-24.7l5.7-33.6
+			c11.3-3.5,22.2-8,32.6-13.5l27.7,19.8c5,3.6,11,5.5,17.2,5.5l0,0c7.9,0,15.3-3.1,20.9-8.7l29.8-29.8c10.2-10.2,11.6-26.3,3.2-38.1
+			l-19.8-27.8c5.5-10.5,10.1-21.4,13.5-32.6l33.6-5.6c14.3-2.4,24.7-14.7,24.7-29.2v-42.1
+			C478.9,203.801,468.5,191.501,454.2,189.101z M451.9,260.401c0,1.3-0.9,2.4-2.2,2.6l-42,7c-5.3,0.9-9.5,4.8-10.8,9.9
+			c-3.8,14.7-9.6,28.8-17.4,41.9c-2.7,4.6-2.5,10.3,0.6,14.7l24.7,34.8c0.7,1,0.6,2.5-0.3,3.4l-29.8,29.8c-0.7,0.7-1.4,0.8-1.9,0.8
+			c-0.6,0-1.1-0.2-1.5-0.5l-34.7-24.7c-4.3-3.1-10.1-3.3-14.7-0.6c-13.1,7.8-27.2,13.6-41.9,17.4c-5.2,1.3-9.1,5.6-9.9,10.8l-7.1,42
+			c-0.2,1.3-1.3,2.2-2.6,2.2h-42.1c-1.3,0-2.4-0.9-2.6-2.2l-7-42c-0.9-5.3-4.8-9.5-9.9-10.8c-14.3-3.7-28.1-9.4-41-16.8
+			c-2.1-1.2-4.5-1.8-6.8-1.8c-2.7,0-5.5,0.8-7.8,2.5l-35,24.9c-0.5,0.3-1,0.5-1.5,0.5c-0.4,0-1.2-0.1-1.9-0.8l-29.8-29.8
+			c-0.9-0.9-1-2.3-0.3-3.4l24.6-34.5c3.1-4.4,3.3-10.2,0.6-14.8c-7.8-13-13.8-27.1-17.6-41.8c-1.4-5.1-5.6-9-10.8-9.9l-42.3-7.2
+			c-1.3-0.2-2.2-1.3-2.2-2.6v-42.1c0-1.3,0.9-2.4,2.2-2.6l41.7-7c5.3-0.9,9.6-4.8,10.9-10c3.7-14.7,9.4-28.9,17.1-42
+			c2.7-4.6,2.4-10.3-0.7-14.6l-24.9-35c-0.7-1-0.6-2.5,0.3-3.4l29.8-29.8c0.7-0.7,1.4-0.8,1.9-0.8c0.6,0,1.1,0.2,1.5,0.5l34.5,24.6
+			c4.4,3.1,10.2,3.3,14.8,0.6c13-7.8,27.1-13.8,41.8-17.6c5.1-1.4,9-5.6,9.9-10.8l7.2-42.3c0.2-1.3,1.3-2.2,2.6-2.2h42.1
+			c1.3,0,2.4,0.9,2.6,2.2l7,41.7c0.9,5.3,4.8,9.6,10,10.9c15.1,3.8,29.5,9.7,42.9,17.6c4.6,2.7,10.3,2.5,14.7-0.6l34.5-24.8
+			c0.5-0.3,1-0.5,1.5-0.5c0.4,0,1.2,0.1,1.9,0.8l29.8,29.8c0.9,0.9,1,2.3,0.3,3.4l-24.7,34.7c-3.1,4.3-3.3,10.1-0.6,14.7
+			c7.8,13.1,13.6,27.2,17.4,41.9c1.3,5.2,5.6,9.1,10.8,9.9l42,7.1c1.3,0.2,2.2,1.3,2.2,2.6v42.1H451.9z"></path>
+		<path d="M239.4,136.001c-57,0-103.3,46.3-103.3,103.3s46.3,103.3,103.3,103.3s103.3-46.3,103.3-103.3S296.4,136.001,239.4,136.001
+			z M239.4,315.601c-42.1,0-76.3-34.2-76.3-76.3s34.2-76.3,76.3-76.3s76.3,34.2,76.3,76.3S281.5,315.601,239.4,315.601z"></path>
+	</g>
+</g>
+</svg> Настройки</a></li><li class="js-nav-link"><a href="https://robochat.io/bot?act=scenario"><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1" id="" x="0px" y="0px" viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve" width="20px" height="20px">
+<g>
+	<g>
+		<path d="M244.9,28.6C109.8,28.6,0,125.6,0,244.8c0,47.1,17.6,93.2,49.7,130.6c-6.7,14.8-16.5,26.5-29.3,34.8
+			c-6.6,4.3-9.8,12.1-8.1,19.8c1.7,7.6,7.8,13.2,15.6,14.3c7.7,1.1,15.6,1.6,23.3,1.6c24.8,0,47.4-5.3,67.3-15.8
+			c38.1,20.3,81.6,31,126.3,31c135.1,0,244.9-97,244.9-216.2S380,28.6,244.9,28.6z M244.9,436.5c-42.9,0-84.5-10.8-120.3-31.2
+			c-1.9-1.1-4-1.6-6.1-1.6c-2.2,0-4.4,0.6-6.3,1.7c-18.8,11.3-41.4,16.7-66,15.8c12.9-11.6,22.7-26.3,29.3-44
+			c1.6-4.3,0.6-9.2-2.5-12.6c-31.8-34.3-48.5-75.7-48.5-119.8c0-105.7,98.9-191.7,220.4-191.7s220.4,86,220.4,191.7
+			S366.4,436.5,244.9,436.5z"></path>
+		<circle cx="244.8" cy="244.8" r="15.7"></circle>
+		<circle cx="177.2" cy="244.8" r="15.7"></circle>
+		<circle cx="312.4" cy="244.8" r="15.7"></circle>
+	</g>
+</g>
+</svg> Сценарий</a></li><li class="js-nav-link"><a href="https://robochat.io/bot?act=mailing"><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px">
+							<g>
+								<path d="M0.043,245.197c0.6,10.1,7.3,18.6,17,21.5l179.6,54.3l6.6,123.8c0.3,4.9,3.6,9.2,8.3,10.8c1.3,0.5,2.7,0.7,4,0.7
+									c3.5,0,6.8-1.4,9.2-4.1l63.5-70.3l90,62.3c4,2.8,8.7,4.3,13.6,4.3c11.3,0,21.1-8,23.5-19.2l74.7-380.7c0.9-4.4-0.8-9-4.2-11.8
+									c-3.5-2.9-8.2-3.6-12.4-1.9l-459,186.8C5.143,225.897-0.557,235.097,0.043,245.197z M226.043,414.097l-4.1-78.1l46,31.8
+									L226.043,414.097z M391.443,423.597l-163.8-113.4l229.7-222.2L391.443,423.597z M432.143,78.197l-227.1,219.7l-179.4-54.2
+									L432.143,78.197z"></path>
+							</g>
+						   </svg> Рассылка</a></li><li class="js-nav-link"><a href="https://robochat.io/bot?act=stats"><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px">
+	<g>
+		<path d="M12.3,220.9c-6.8,0-12.3,5.5-12.3,12.3v229.7c0,6.8,5.5,12.3,12.3,12.3h112.3c6.8,0,12.3-5.5,12.3-12.3V233.2
+			c0-6.8-5.5-12.3-12.3-12.3H12.3z M112.3,450.6H24.5V245.4h87.8C112.3,245.4,112.3,450.6,112.3,450.6z"></path>
+		<path d="M175.7,25.3v437.6c0,6.8,5.5,12.3,12.3,12.3h112.3c6.8,0,12.3-5.5,12.3-12.3V25.3c0-6.8-5.5-12.3-12.3-12.3H187.9
+			C181.2,13.1,175.7,18.5,175.7,25.3z M200.2,37.6H288v413.1h-87.8L200.2,37.6L200.2,37.6z"></path>
+		<path d="M475.9,475.1c6.8,0,12.3-5.5,12.3-12.3V168.1c0-6.8-5.5-12.3-12.3-12.3H363.6c-6.8,0-12.3,5.5-12.3,12.3v294.8
+			c0,6.8,5.5,12.3,12.3,12.3h112.3V475.1z M375.9,180.4h87.8v270.3h-87.8V180.4z"></path>
+	</g>
+</svg> Статистика</a></li></ul>
+
+        </div>
+
+        <div class="header__profile-wrap">
+            
+                                        <a href="https://vk.me/club194773049" target="_blank" class="header__btn">
+                    <button class="default-btn default-btn--vk">
+                        <img src="1%20%D1%81%D1%82%D1%80_files/vk-white.svg" alt="" class="btn-icon">
+                        Написать боту
+                    </button>
+                </a>
+                                    <a href="https://robochat.io/balance" class="header__btn">
+                        <button class="default-btn default-btn--outline">
+                            <img src="1%20%D1%81%D1%82%D1%80_files/star_yellow.svg" alt="" class="btn-icon">
+                            Повысить тариф
+                        </button>
+                    </a>
+                                                        <nav class="header-nav">
+                <ul class="header-nav__list" id="header-nav-list">
+                    <li class="dashboard "><a href="https://robochat.io/dashboard">Панель</a></li><li class="balance "><a href="https://robochat.io/balance">Тарифы и оплата</a></li><li class="ref "><a href="https://robochat.io/affiliate">Партнерам</a></li><li class="faq "><a href="https://robochat.io/faq">Руководство</a></li><li class="group "><a href="https://vk.me/robochat" target="_blank">Поддержка</a></li>                </ul>
+            </nav>
+            <div class="header-profile" id="header-active-profile-nav">
+                <div class="header-profile__item">
+                    <div class="header-profile__item__trigger" data-tooltip=""></div>
+                    <img src="1%20%D1%81%D1%82%D1%80_files/clqUzaq6f8A.jfif" alt="Аватар" class="avatar">
+                    <div class="header__ui-menu" data-tooltip-ignore="">
+                        <ul class="header__ui-menu__mobile">
+                            <li class="dashboard "><a href="https://robochat.io/dashboard">Панель</a></li><li class="balance "><a href="https://robochat.io/balance">Тарифы и оплата</a></li><li class="ref "><a href="https://robochat.io/affiliate">Партнерам</a></li><li class="faq "><a href="https://robochat.io/faq">Руководство</a></li><li class="group "><a href="https://vk.me/robochat" target="_blank">Поддержка</a></li>                        </ul>
+                        <ul>
+                            <li class="profile-managing" data-tooltip="" id="header-profile-tooltip-managing" tabindex="-1">
+                                Аккаунты...
+                                <span class="number-point hidden" id="header-profiles-count"></span>
+                                <div class="header-profile-tooltip">
+                                    <ul>
+                                        <li class="back" id="header-profile-tooltip-back-btn"></li>
+                                    </ul>
+                                    <div class="empty-list">
+                                        <p>
+                                            Подключенных аккаунтов нет
+                                        </p>
+                                    </div>
+                                    <ul class="hidden" id="header-connected-profiles-list">
+                                    </ul>
+                                    <ul>
+                                        <li class="add-new" onclick="location.href='/profiles'">
+                                            Подключить аккаунт <img src="1%20%D1%81%D1%82%D1%80_files/plus_blue.svg" alt="" class="inline-icon">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                                                            <li onclick="location.href='/connect'" class="communities">
+                                    Управление сообществами
+                                </li>
+                                                        <li onclick="location.href='/profiles'" class="accounts">
+                                Управление аккаунтами
+                            </li>
+                            <li id="user-logout" class="border-top logout" data-app-hide="">
+                                Выйти
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+</header>
+
+<main id="main">
+    <nav class="main__pages-nav">
+    <div class="container">
+        <ul id="main-nav-list" class=""><li class="js-nav-link active"><a href="https://robochat.io/bot?"><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px">
+<g>
+	<g>
+		<path d="M454.2,189.101l-33.6-5.7c-3.5-11.3-8-22.2-13.5-32.6l19.8-27.7c8.4-11.8,7.1-27.9-3.2-38.1l-29.8-29.8
+			c-5.6-5.6-13-8.7-20.9-8.7c-6.2,0-12.1,1.9-17.1,5.5l-27.8,19.8c-10.8-5.7-22.1-10.4-33.8-13.9l-5.6-33.2
+			c-2.4-14.3-14.7-24.7-29.2-24.7h-42.1c-14.5,0-26.8,10.4-29.2,24.7l-5.8,34c-11.2,3.5-22.1,8.1-32.5,13.7l-27.5-19.8
+			c-5-3.6-11-5.5-17.2-5.5c-7.9,0-15.4,3.1-20.9,8.7l-29.9,29.8c-10.2,10.2-11.6,26.3-3.2,38.1l20,28.1
+			c-5.5,10.5-9.9,21.4-13.3,32.7l-33.2,5.6c-14.3,2.4-24.7,14.7-24.7,29.2v42.1c0,14.5,10.4,26.8,24.7,29.2l34,5.8
+			c3.5,11.2,8.1,22.1,13.7,32.5l-19.7,27.4c-8.4,11.8-7.1,27.9,3.2,38.1l29.8,29.8c5.6,5.6,13,8.7,20.9,8.7c6.2,0,12.1-1.9,17.1-5.5
+			l28.1-20c10.1,5.3,20.7,9.6,31.6,13l5.6,33.6c2.4,14.3,14.7,24.7,29.2,24.7h42.2c14.5,0,26.8-10.4,29.2-24.7l5.7-33.6
+			c11.3-3.5,22.2-8,32.6-13.5l27.7,19.8c5,3.6,11,5.5,17.2,5.5l0,0c7.9,0,15.3-3.1,20.9-8.7l29.8-29.8c10.2-10.2,11.6-26.3,3.2-38.1
+			l-19.8-27.8c5.5-10.5,10.1-21.4,13.5-32.6l33.6-5.6c14.3-2.4,24.7-14.7,24.7-29.2v-42.1
+			C478.9,203.801,468.5,191.501,454.2,189.101z M451.9,260.401c0,1.3-0.9,2.4-2.2,2.6l-42,7c-5.3,0.9-9.5,4.8-10.8,9.9
+			c-3.8,14.7-9.6,28.8-17.4,41.9c-2.7,4.6-2.5,10.3,0.6,14.7l24.7,34.8c0.7,1,0.6,2.5-0.3,3.4l-29.8,29.8c-0.7,0.7-1.4,0.8-1.9,0.8
+			c-0.6,0-1.1-0.2-1.5-0.5l-34.7-24.7c-4.3-3.1-10.1-3.3-14.7-0.6c-13.1,7.8-27.2,13.6-41.9,17.4c-5.2,1.3-9.1,5.6-9.9,10.8l-7.1,42
+			c-0.2,1.3-1.3,2.2-2.6,2.2h-42.1c-1.3,0-2.4-0.9-2.6-2.2l-7-42c-0.9-5.3-4.8-9.5-9.9-10.8c-14.3-3.7-28.1-9.4-41-16.8
+			c-2.1-1.2-4.5-1.8-6.8-1.8c-2.7,0-5.5,0.8-7.8,2.5l-35,24.9c-0.5,0.3-1,0.5-1.5,0.5c-0.4,0-1.2-0.1-1.9-0.8l-29.8-29.8
+			c-0.9-0.9-1-2.3-0.3-3.4l24.6-34.5c3.1-4.4,3.3-10.2,0.6-14.8c-7.8-13-13.8-27.1-17.6-41.8c-1.4-5.1-5.6-9-10.8-9.9l-42.3-7.2
+			c-1.3-0.2-2.2-1.3-2.2-2.6v-42.1c0-1.3,0.9-2.4,2.2-2.6l41.7-7c5.3-0.9,9.6-4.8,10.9-10c3.7-14.7,9.4-28.9,17.1-42
+			c2.7-4.6,2.4-10.3-0.7-14.6l-24.9-35c-0.7-1-0.6-2.5,0.3-3.4l29.8-29.8c0.7-0.7,1.4-0.8,1.9-0.8c0.6,0,1.1,0.2,1.5,0.5l34.5,24.6
+			c4.4,3.1,10.2,3.3,14.8,0.6c13-7.8,27.1-13.8,41.8-17.6c5.1-1.4,9-5.6,9.9-10.8l7.2-42.3c0.2-1.3,1.3-2.2,2.6-2.2h42.1
+			c1.3,0,2.4,0.9,2.6,2.2l7,41.7c0.9,5.3,4.8,9.6,10,10.9c15.1,3.8,29.5,9.7,42.9,17.6c4.6,2.7,10.3,2.5,14.7-0.6l34.5-24.8
+			c0.5-0.3,1-0.5,1.5-0.5c0.4,0,1.2,0.1,1.9,0.8l29.8,29.8c0.9,0.9,1,2.3,0.3,3.4l-24.7,34.7c-3.1,4.3-3.3,10.1-0.6,14.7
+			c7.8,13.1,13.6,27.2,17.4,41.9c1.3,5.2,5.6,9.1,10.8,9.9l42,7.1c1.3,0.2,2.2,1.3,2.2,2.6v42.1H451.9z"></path>
+		<path d="M239.4,136.001c-57,0-103.3,46.3-103.3,103.3s46.3,103.3,103.3,103.3s103.3-46.3,103.3-103.3S296.4,136.001,239.4,136.001
+			z M239.4,315.601c-42.1,0-76.3-34.2-76.3-76.3s34.2-76.3,76.3-76.3s76.3,34.2,76.3,76.3S281.5,315.601,239.4,315.601z"></path>
+	</g>
+</g>
+</svg> Настройки</a></li><li class="js-nav-link"><a href="https://robochat.io/bot?act=scenario"><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1" id="" x="0px" y="0px" viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve" width="20px" height="20px">
+<g>
+	<g>
+		<path d="M244.9,28.6C109.8,28.6,0,125.6,0,244.8c0,47.1,17.6,93.2,49.7,130.6c-6.7,14.8-16.5,26.5-29.3,34.8
+			c-6.6,4.3-9.8,12.1-8.1,19.8c1.7,7.6,7.8,13.2,15.6,14.3c7.7,1.1,15.6,1.6,23.3,1.6c24.8,0,47.4-5.3,67.3-15.8
+			c38.1,20.3,81.6,31,126.3,31c135.1,0,244.9-97,244.9-216.2S380,28.6,244.9,28.6z M244.9,436.5c-42.9,0-84.5-10.8-120.3-31.2
+			c-1.9-1.1-4-1.6-6.1-1.6c-2.2,0-4.4,0.6-6.3,1.7c-18.8,11.3-41.4,16.7-66,15.8c12.9-11.6,22.7-26.3,29.3-44
+			c1.6-4.3,0.6-9.2-2.5-12.6c-31.8-34.3-48.5-75.7-48.5-119.8c0-105.7,98.9-191.7,220.4-191.7s220.4,86,220.4,191.7
+			S366.4,436.5,244.9,436.5z"></path>
+		<circle cx="244.8" cy="244.8" r="15.7"></circle>
+		<circle cx="177.2" cy="244.8" r="15.7"></circle>
+		<circle cx="312.4" cy="244.8" r="15.7"></circle>
+	</g>
+</g>
+</svg> Сценарий</a></li><li class="js-nav-link"><a href="https://robochat.io/bot?act=mailing"><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px">
+							<g>
+								<path d="M0.043,245.197c0.6,10.1,7.3,18.6,17,21.5l179.6,54.3l6.6,123.8c0.3,4.9,3.6,9.2,8.3,10.8c1.3,0.5,2.7,0.7,4,0.7
+									c3.5,0,6.8-1.4,9.2-4.1l63.5-70.3l90,62.3c4,2.8,8.7,4.3,13.6,4.3c11.3,0,21.1-8,23.5-19.2l74.7-380.7c0.9-4.4-0.8-9-4.2-11.8
+									c-3.5-2.9-8.2-3.6-12.4-1.9l-459,186.8C5.143,225.897-0.557,235.097,0.043,245.197z M226.043,414.097l-4.1-78.1l46,31.8
+									L226.043,414.097z M391.443,423.597l-163.8-113.4l229.7-222.2L391.443,423.597z M432.143,78.197l-227.1,219.7l-179.4-54.2
+									L432.143,78.197z"></path>
+							</g>
+						   </svg> Рассылка</a></li><li class="js-nav-link"><a href="https://robochat.io/bot?act=stats"><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px">
+	<g>
+		<path d="M12.3,220.9c-6.8,0-12.3,5.5-12.3,12.3v229.7c0,6.8,5.5,12.3,12.3,12.3h112.3c6.8,0,12.3-5.5,12.3-12.3V233.2
+			c0-6.8-5.5-12.3-12.3-12.3H12.3z M112.3,450.6H24.5V245.4h87.8C112.3,245.4,112.3,450.6,112.3,450.6z"></path>
+		<path d="M175.7,25.3v437.6c0,6.8,5.5,12.3,12.3,12.3h112.3c6.8,0,12.3-5.5,12.3-12.3V25.3c0-6.8-5.5-12.3-12.3-12.3H187.9
+			C181.2,13.1,175.7,18.5,175.7,25.3z M200.2,37.6H288v413.1h-87.8L200.2,37.6L200.2,37.6z"></path>
+		<path d="M475.9,475.1c6.8,0,12.3-5.5,12.3-12.3V168.1c0-6.8-5.5-12.3-12.3-12.3H363.6c-6.8,0-12.3,5.5-12.3,12.3v294.8
+			c0,6.8,5.5,12.3,12.3,12.3h112.3V475.1z M375.9,180.4h87.8v270.3h-87.8V180.4z"></path>
+	</g>
+</svg> Статистика</a></li></ul>
+    </div>
+</nav>
+
+
+
+
+    <div class="main-page-content">
+        <div class="columns-container container">
+            <div class="narrow-column tabs-column" data-active-tab="1" id="narrow-column-tabs">
+                <div class="sticky-column-inner" id="narrow-column-container">
+                    
+            <div class="block-notification block-notification--yellow">
+        <button class="cross-btn js-hide-info-block" data-id="1"></button>
+        <img src="1%20%D1%81%D1%82%D1%80_files/star_yellow_002.svg" alt="" class="block-notification__image">
+        <h3>С чего начать?</h3>
+        <ul class="get-started-list">
+            <li class="checked">
+                Подключите бота
+            </li>
+            <li class="checked">
+                Добавьте приветствие
+            </li>
+            <li class="checked">
+                Добавьте реакцию на подписку
+            </li>
+            <li class="checked">
+                Добавьте в сценарий первые команды (5/5)
+            </li>
+            <li class="checked">
+                Соберите базу подписчиков для рассылки
+            </li>
+            
+        </ul>
+    </div>
+
+
+    
+
+
+
+
+
+<div class="bot-plan bot-plan--white margin-bottom--medium">
+    <h3>
+        Тариф «Бесплатный»
+    </h3>
+    <div class="inner-container"></div>
+    <p class="bot-plan__subtext">
+        Не ограничено по времени
+    </p>
+    <a href="https://robochat.io/balance?act=plans">
+        <button class="default-btn default-btn--white bot-plan__pay-btn">Повысить тариф</button>
+    </a>
+</div>
+
+
+
+<div class="offer-block offer-block--partnership new margin-bottom--medium">
+    <a href="https://robochat.io/affiliate" class="inner-link"></a>
+    <h3>Зарабатывайте вместе с нами</h3>
+    <p>
+        Приводите пользователей <br> и получайте до 30%<br> с их платежей.
+    </p>
+    <a href="https://robochat.io/affiliate" class="relative">
+        <button class="default-btn default-btn--white relative">
+            Подробнее
+        </button>
+    </a>
+</div>
+
+
+
+
+<div class="relative">
+    <div class="ui-tooltip mobile-768 ui-tooltip--action right" data-tutorial-tooltip="2">
+        <button class="close-btn js-close-tooltip-btn">
+            <span class="text-tooltip text-tooltip--top left">
+                Скрыть это уведомление
+            </span>
+        </button>
+        <p class="title">
+            Назначайте администраторов
+        </p>
+        <p>
+            Нажмите на эту кнопку, чтобы добавить пользователей с правами управления вашим ботом.
+        </p>
+    </div>
+    <button class="default-btn default-btn--light-blue narrow-column__full-width-btn mobile-fixed-btn mobile-fixed-btn--fw margin-bottom--small" id="bot-settings-btn">
+        <img src="1%20%D1%81%D1%82%D1%80_files/settings_blue.svg" alt="" class="btn-shadow-icon">
+        <span class="btn-inner">
+            Управление ботом
+        </span>
+    </button>
+</div>
+
+<div class="relative ui-tooltip-wrap">
+    <div class="ui-tooltip right">
+        <p class="title margin-bottom--small">
+            Ответ на пропуски
+        </p>
+        <img src="1%20%D1%81%D1%82%D1%80_files/omissions.png" alt="">
+        <p>
+            Иногда при большом количестве сообщений или технических перерывах могут накапливаться пропущенные ботом
+            сообщения.
+        </p>
+        <p>
+            Нажмите на эту кнопку, чтобы бот ответил на неотвеченные сообщения пользователей.
+        </p>
+        <p>
+            Можно использовать раз в минуту. Не нажимайте при отсутствии пропусков — бот начнет спамить.
+        </p>
+    </div>
+    <button class="default-btn default-btn--outline narrow-column__full-width-btn margin-bottom--small" id="reply-unanswered-messages-btn">
+        <img src="1%20%D1%81%D1%82%D1%80_files/answer.svg" alt="" class="btn-shadow-icon">
+        <span class="btn-inner">
+                Ответить на пропуски
+            </span>
+    </button>
+</div>
+
+<div class="ui-block">
+    <div class="ui-block__line ">
+        <div class="ui-tooltip right">
+            <p class="title">
+                Статус бота
+            </p>
+            <p>
+                При включеном статусе бот будет отвечать на все входящие сообщения от пользователей
+                в Вашем сообществе.
+            </p>
+        </div>
+        <div>
+            Бот сообщества включен
+        </div>
+        <div>
+            <input type="checkbox" class="ui-toggler ui-toggler--red" id="bot-status" checked="checked" data-id="254583">
+            <label for="bot-status"></label>
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+<div class="mobile-fixed-subBar"></div>
+
+                </div>
+            </div>
+            <div class="wide-column" id="wide-column-container">
+                
+    <h1 class="main-page-title">Реакции бота <div class="page-faq-trigger js-view-page-faq" data-action="settings">
+            ?
+            <div class="text-tooltip text-tooltip--left">
+                Об этой странице
+            </div>
+        </div></h1><section class="db-section"><h4>Основные сообщения</h4><div class="table table--settings"><div class="table-row js-link js-selected" data-action="keywords" data-type="1" data-id="1">
+                <div>
+                    <div class="status-icon"></div>
+                    <img src="1%20%D1%81%D1%82%D1%80_files/message.svg" alt="" class="table-image">
+                    <div class="label">Приветственные сообщения</div>
+                    <p>Реакция на первое сообщение пользователя боту, срабатывает только 1 раз</p>
+                </div>
+            </div><div class="table-row js-link js-selected" data-action="keywords" data-type="1" data-id="2">
+                <div>
+                    <div class="status-icon"></div>
+                    <img src="1%20%D1%81%D1%82%D1%80_files/login.svg" alt="" class="table-image">
+                    <div class="label">Реакция на подписку</div>
+                    <p>Сработает, только если пользователь писал в сообщество</p>
+                </div>
+            </div><div class="table-row js-link js-selected" data-action="keywords" data-type="1" data-id="3">
+                <div>
+                    <div class="status-icon"></div>
+                    <img src="1%20%D1%81%D1%82%D1%80_files/logout.svg" alt="" class="table-image">
+                    <div class="label">Реакция на отписку</div>
+                    <p>Сработает, только если пользователь писал в сообщество</p>
+                </div>
+            </div><div class="table-row js-link" data-action="keywords" data-type="1" data-id="4">
+                <div>
+                    <div class="status-icon"></div>
+                    <img src="1%20%D1%81%D1%82%D1%80_files/idea.svg" alt="" class="table-image">
+                    <div class="label">Реакция на неизвестную команду</div>
+                    <p>Ответ на любое сообщение не по сценарию</p>
+                </div>
+            </div><div class="table-row js-link js-selected" data-action="keywords" data-type="1" data-id="11">
+                <div>
+                    <div class="status-icon"></div>
+                    <img src="1%20%D1%81%D1%82%D1%80_files/conversation.svg" alt="" class="table-image">
+                    <div class="label">Реакция на разрешение сообщений</div>
+                    <p>Срабатывает, когда пользователь разрешает сообществу отправлять ему сообщения</p>
+                </div>
+            </div></div></section><section class="db-section"><h4>Ответы на медиафайлы</h4><div class="table table--settings"><div class="table-row js-link" data-action="keywords" data-type="1" data-id="5">
+                <div>
+                    <div class="status-icon"></div>
+                    <img src="1%20%D1%81%D1%82%D1%80_files/photo_002.svg" alt="" class="table-image">
+                    <div class="label">Ответ на картинку</div>
+                    <p>Реакция на сообщение с картинкой</p>
+                </div>
+            </div><div class="table-row js-link" data-action="keywords" data-type="1" data-id="6">
+                <div>
+                    <div class="status-icon"></div>
+                    <img src="1%20%D1%81%D1%82%D1%80_files/video_002.svg" alt="" class="table-image">
+                    <div class="label">Ответ на видео</div>
+                    <p>Реакция на сообщение с видео</p>
+                </div>
+            </div><div class="table-row js-link" data-action="keywords" data-type="1" data-id="7">
+                <div>
+                    <div class="status-icon"></div>
+                    <img src="1%20%D1%81%D1%82%D1%80_files/tag.svg" alt="" class="table-image">
+                    <div class="label">Ответ на товар</div>
+                    <p>Реакция на сообщение с товаром</p>
+                </div>
+            </div><div class="table-row js-link" data-action="keywords" data-type="1" data-id="8">
+                <div>
+                    <div class="status-icon"></div>
+                    <img src="1%20%D1%81%D1%82%D1%80_files/picture.svg" alt="" class="table-image">
+                    <div class="label">Ответ на стикер</div>
+                    <p>Реакция на сообщение со стикером</p>
+                </div>
+            </div><div class="table-row js-link" data-action="keywords" data-type="1" data-id="9">
+                <div>
+                    <div class="status-icon"></div>
+                    <img src="1%20%D1%81%D1%82%D1%80_files/document.svg" alt="" class="table-image">
+                    <div class="label">Ответ на документ</div>
+                    <p>Реакция на сообщение с документом</p>
+                </div>
+            </div><div class="table-row js-link" data-action="keywords" data-type="1" data-id="10">
+                <div>
+                    <div class="status-icon"></div>
+                    <img src="1%20%D1%81%D1%82%D1%80_files/audio.svg" alt="" class="table-image">
+                    <div class="label">Ответ на аудиофайл</div>
+                    <p>Реакция на сообщение с аудиофайлом</p>
+                </div>
+            </div></div></section>
+
+            <div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal--default remodal--community-settings hidden remodal-is-initialized remodal-is-closed" id="vk-bot-settings-remodal" data-remodal-options="hashTracking: false" tabindex="-1" data-remodal="0">
+    <header class="remodal__header">
+        <button class="close-modal-btn" data-remodal-action="close"></button>
+        <h3>
+            Управление ботом
+        </h3>
+    </header>
+    <div class="remodal__content">
+        <ul class="form-list form-list--column-style">
+            <li>
+                <div>
+                    <span>
+                        <input type="checkbox" class="nice-checkbox top" id="bot-disable-on-message-checkbox">
+                        <label for="bot-disable-on-message-checkbox">
+                            не вмешиваться в диалог после сообщения администратора в течение
+                        </label>
+                        <div class="text-wrap">
+                           <input type="number" class="inline-input" value="30" maxlength="3">
+                            <select name="" id="disabled-bot-on-admin-message" class="form-control inline-images">
+                                <option value="1" selected="selected">секунд</option>
+                                <option value="2">минут</option>
+                                <option value="3">часов</option>
+                            </select>
+                            <span class="c-tooltip">
+                                ?
+                                <span class="c-tooltip__content center">
+                                    <p class="title">
+                                        Отключение бота
+                                    </p>
+                                    <p>
+                                        Бот будет автоматически 
+выключаться на указанное время для собеседника после отправки 
+администратором сообщения в чате.
+                                    </p>
+                                    <p>
+                                        Чтобы преждевременно включить бота, введите команду <strong>/бот</strong>
+                                    </p>
+                                </span>
+                            </span>
+                        </div>
+                    </span>
+                </div>
+            </li>
+            <li>
+                <input type="checkbox" class="nice-checkbox top" id="enabled-time-period">
+                <label for="enabled-time-period">
+                    бот работает только в промежутке времени (по Москве)
+                </label>
+                <div>
+                    <div class="text-wrap">
+                        <select name="" id="enabled-time-period-from" class="form-control inline-images">
+                            <option value="00" selected="selected">00</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                        </select>
+                        <select name="" id="" class="form-control inline-images">
+                                                            <option value="00" selected="selected">00</option>
+                                                            <option value="01">01</option>
+                                                            <option value="02">02</option>
+                                                            <option value="03">03</option>
+                                                            <option value="04">04</option>
+                                                            <option value="05">05</option>
+                                                            <option value="06">06</option>
+                                                            <option value="07">07</option>
+                                                            <option value="08">08</option>
+                                                            <option value="09">09</option>
+                                                            <option value="10">10</option>
+                                                            <option value="11">11</option>
+                                                            <option value="12">12</option>
+                                                            <option value="13">13</option>
+                                                            <option value="14">14</option>
+                                                            <option value="15">15</option>
+                                                            <option value="16">16</option>
+                                                            <option value="17">17</option>
+                                                            <option value="18">18</option>
+                                                            <option value="19">19</option>
+                                                            <option value="20">20</option>
+                                                            <option value="21">21</option>
+                                                            <option value="22">22</option>
+                                                            <option value="23">23</option>
+                                                            <option value="24">24</option>
+                                                            <option value="25">25</option>
+                                                            <option value="26">26</option>
+                                                            <option value="27">27</option>
+                                                            <option value="28">28</option>
+                                                            <option value="29">29</option>
+                                                            <option value="30">30</option>
+                                                            <option value="31">31</option>
+                                                            <option value="32">32</option>
+                                                            <option value="33">33</option>
+                                                            <option value="34">34</option>
+                                                            <option value="35">35</option>
+                                                            <option value="36">36</option>
+                                                            <option value="37">37</option>
+                                                            <option value="38">38</option>
+                                                            <option value="39">39</option>
+                                                            <option value="40">40</option>
+                                                            <option value="41">41</option>
+                                                            <option value="42">42</option>
+                                                            <option value="43">43</option>
+                                                            <option value="44">44</option>
+                                                            <option value="45">45</option>
+                                                            <option value="46">46</option>
+                                                            <option value="47">47</option>
+                                                            <option value="48">48</option>
+                                                            <option value="49">49</option>
+                                                            <option value="50">50</option>
+                                                            <option value="51">51</option>
+                                                            <option value="52">52</option>
+                                                            <option value="53">53</option>
+                                                            <option value="54">54</option>
+                                                            <option value="55">55</option>
+                                                            <option value="56">56</option>
+                                                            <option value="57">57</option>
+                                                            <option value="58">58</option>
+                                                            <option value="59">59</option>
+                                                    </select>
+                        -
+                        <select name="" id="enabled-time-period-to" class="form-control inline-images">
+                            <option value="00" selected="selected">00</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                        </select>
+                        <select name="" id="" class="form-control inline-images">
+                                                            <option value="00" selected="selected">00</option>
+                                                            <option value="01">01</option>
+                                                            <option value="02">02</option>
+                                                            <option value="03">03</option>
+                                                            <option value="04">04</option>
+                                                            <option value="05">05</option>
+                                                            <option value="06">06</option>
+                                                            <option value="07">07</option>
+                                                            <option value="08">08</option>
+                                                            <option value="09">09</option>
+                                                            <option value="10">10</option>
+                                                            <option value="11">11</option>
+                                                            <option value="12">12</option>
+                                                            <option value="13">13</option>
+                                                            <option value="14">14</option>
+                                                            <option value="15">15</option>
+                                                            <option value="16">16</option>
+                                                            <option value="17">17</option>
+                                                            <option value="18">18</option>
+                                                            <option value="19">19</option>
+                                                            <option value="20">20</option>
+                                                            <option value="21">21</option>
+                                                            <option value="22">22</option>
+                                                            <option value="23">23</option>
+                                                            <option value="24">24</option>
+                                                            <option value="25">25</option>
+                                                            <option value="26">26</option>
+                                                            <option value="27">27</option>
+                                                            <option value="28">28</option>
+                                                            <option value="29">29</option>
+                                                            <option value="30">30</option>
+                                                            <option value="31">31</option>
+                                                            <option value="32">32</option>
+                                                            <option value="33">33</option>
+                                                            <option value="34">34</option>
+                                                            <option value="35">35</option>
+                                                            <option value="36">36</option>
+                                                            <option value="37">37</option>
+                                                            <option value="38">38</option>
+                                                            <option value="39">39</option>
+                                                            <option value="40">40</option>
+                                                            <option value="41">41</option>
+                                                            <option value="42">42</option>
+                                                            <option value="43">43</option>
+                                                            <option value="44">44</option>
+                                                            <option value="45">45</option>
+                                                            <option value="46">46</option>
+                                                            <option value="47">47</option>
+                                                            <option value="48">48</option>
+                                                            <option value="49">49</option>
+                                                            <option value="50">50</option>
+                                                            <option value="51">51</option>
+                                                            <option value="52">52</option>
+                                                            <option value="53">53</option>
+                                                            <option value="54">54</option>
+                                                            <option value="55">55</option>
+                                                            <option value="56">56</option>
+                                                            <option value="57">57</option>
+                                                            <option value="58">58</option>
+                                                            <option value="59">59</option>
+                                                    </select>
+                    </div>
+                </div>
+            </li>
+            <li class="callback-keys" id="callback-keys-container">
+                <p class="callback-keys__text">
+                    Добавьте до 5 ключей доступа ВКонтакте, чтобы ваши рассылки отправлялись в 5 раз быстрее, а бот мог
+                    отвечать на большее число сообщений за то же время.
+                </p>
+                <div style="text-align: right;width: 100%;">
+                    <a href="#0" target="_blank" id="bot-additional-token-link">
+                    <button class="default-btn default-btn--turquoise">Добавить ключ</button>
+                    </a>
+                </div>
+            </li>
+            <li class="callback-api" id="">
+                <div class="callback-api__title">
+                    Ключ API:
+                </div>
+                <div class="callback-api__input-wrapper">
+                    <input type="text" class="form-control callback-api__input" id="api-key-input" readonly="readonly" onclick="this.select();">
+                    <div class="callback-api__update" role="button" id="refresh-api-key">
+                        <div class="callback-api__update-icon"></div>
+                        <span class="text-tooltip text-tooltip--bottom">
+                            Изменить ключ
+                        </span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+                    <div class="content-wrap">
+                <div class="ui-paragraph__header">
+                    Пользователи с доступом к управлению ботом:
+                </div>
+                <div class="ui-users-list">
+                    <div class="ui-users-list__input-wrap">
+                        <input placeholder="Ссылка на страницу ВК" class="ui-users-list__input" id="add-bot-access-input" type="text">
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+
+    <div class="remodal__footer">
+        <div></div>
+        <div>
+            <button class="default-btn default-btn--primary" id="save-bot-settings-btn">Сохранить изменения</button>
+        </div>
+    </div>
+</div></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal--bot-connected hidden remodal-is-initialized remodal-is-closed" id="robochat-connected-modal" tabindex="-1" data-remodal="1">
+    <div class="border"></div>
+    <input name="connect-step" id="connect-step-one" type="radio" class="step-radio-button step-one" checked="checked">
+    <input name="connect-step" id="connect-step-two" type="radio" class="step-radio-button step-two">
+    <input name="connect-step" id="connect-step-three" type="radio" class="step-radio-button step-three">
+
+    <div class="post__container">
+        <section class="post__block features features--one">
+            <div class="post__icon"></div>
+            <h1 class="main-page-title">
+                Робочат установлен
+            </h1>
+            <p>
+                Бот подключен и может быть настроен.
+            </p>
+            <button class="default-btn default-btn--gradient default-btn--turquoise" onclick="document.getElementById('connect-step-two').checked=true">
+                Продолжить
+            </button>
+        </section>
+
+        <section class="post__block features features--two">
+            <h2 class="main-page-title">
+                до <span class="big">50</span> тысяч
+                <br>
+                <span class="padding-left">— бесплатно!</span>
+            </h2>
+            <p>
+                Сообщества размером до 50 тысяч подписчиков могут пользоваться ботом бесплатно неограниченное время,
+                однако с платными тарифами для вашего бота открываются новые возможности.
+            </p>
+            <button class="default-btn default-btn--gradient default-btn--turquoise" data-remodal-action="close">
+                Продолжить
+            </button>
+        </section>
+    </div>
+</div></div></div>
+        </div>
+    </div>
+</main>
+
+<div class="absolute-tooltip" id="absolute-tooltip"></div>
+
+
+
+
+
+
+<script src="1%20%D1%81%D1%82%D1%80_files/charts.js"></script>
+<script src="1%20%D1%81%D1%82%D1%80_files/bot.js" defer="defer"></script>
+
+    <div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal--files hidden remodal-is-initialized remodal-is-closed" id="files-library-modal" tabindex="-1" data-remodal="2">
+    <header>
+        <div class="community-selector-wrapper" id="files-library-community-selector">
+            <div class="community-selector" id="community-selector-container" data-id="254583" data-peer="194773049" data-tooltip="">
+                <img src="1%20%D1%81%D1%82%D1%80_files/Oe2nzl5PYrE.jfif" alt="" class="avatar">
+                <div class="label">
+                    VredDesign                </div>
+                <div class="subtext" id="active-bot-files-count">
+                    —
+                </div>
+                <div class="community-select-arrow"></div>
+                <div class="community-select__list" data-tooltip-ignore="">
+                    <ul id="files-library-bots-list"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="remodal__extra-header">
+            <h3 class="title" id="files-remodal-tab-title">
+                Файлы
+            </h3>
+            <button class="update-files-btn" id="update-files-library"> 
+                <span class="text-tooltip text-tooltip--bottom right">
+                    Обновить библиотеку
+                </span>
+            </button>
+        </div>
+        <button class="close-modal-btn" data-remodal-action="close"></button>
+    </header>
+
+    <div id="files-remodal-instruction-container" class="how-to-upload">
+        <header>
+            <button class="close-modal-btn" id="files-remodal-close-instruction"></button>
+            <h3>Как добавить файлы в библиотеку?</h3>
+        </header>
+        <div class="how-to-upload__overflow-content">
+            <div class="how-to-upload__step" data-step="1">
+                <p>
+                    Напишите своему боту команду <strong>/загрузка</strong>, чтобы включить режим загрузки файлов.
+                </p>
+            </div>
+            <div class="image-wrap">
+                <a href="https://robochat.io/img/db/faq/popular/files.png" target="_blank" title="Нажмите, чтобы открыть изображение в новом окне">
+                    <img src="" data-src="/img/db/faq/popular/files.png" alt="">
+                </a>
+            </div>
+            <div class="how-to-upload__step" data-step="2">
+                <p>
+                    Скиньте в диалог боту медиафайлы, которые хотите загрузить в библиотеку. После загрузки во ВКонтакте
+                    они будут добавлены в это окно.
+                </p>
+            </div>
+            <div class="image-wrap">
+                <a href="https://robochat.io/img/db/faq/popular/files-upload-2.gif" target="_blank" title="Нажмите, чтобы открыть изображение в новом окне">
+                    <img src="" data-src="/img/db/faq/popular/files-upload-2.gif" alt="">
+                </a>
+            </div>
+            
+            <div class="how-to-upload__step" data-step="3">
+                <p>
+                    Используйте файлы из библиотеки в любом месте сценария, прикрепляя их к ответам бота.
+                </p>
+            </div>
+            <div class="image-wrap">
+                <a href="https://robochat.io/img/db/faq/popular/files-upload.gif" target="_blank" title="Нажмите, чтобы открыть изображение в новом окне">
+                    <img src="" data-src="/img/db/faq/popular/files-upload.gif" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <content class="columns-wrap">
+        <aside class="narrow-column" data-active-tab="1">
+            <div class="btns-wrap">
+                <div class="files-instruction" id="files-remodal-instruction-btn">
+                    <span>
+                        Инструкция
+                    </span>
+                </div>
+                <div class="upload-files-btn" id="upload-bot-files-btn">
+                    <a href="https://vk.me/club194773049" target="_blank"></a>
+                    <span>
+                        Загрузить <img src="1%20%D1%81%D1%82%D1%80_files/plus_gray.svg" alt="" class="inline-icon">
+                    </span>
+                </div>
+            </div>
+            <nav>
+                <ul class="files-sections__list">
+                    <li class="js-tab js-files-tab hidden" data-title="Прикреплённые файлы" data-page="0" data-id="6" data-item="0" id="reply-attachments-tab">
+                        <div class="image-wrapper">
+                            <img src="1%20%D1%81%D1%82%D1%80_files/attach.svg" alt="">
+                        </div>
+                        <div class="files-section__name">
+                            Прикрепленные
+                            <span class="files-section__count js-files-count" id="reply-attachments-count">
+                                0 файлов
+                            </span>
+                        </div>
+                    </li>
+                    <li class="js-tab js-files-tab active" data-title="Фото" data-page="0" data-id="1" data-item="1">
+                        <div class="image-wrapper">
+                            <img src="1%20%D1%81%D1%82%D1%80_files/photo.svg" alt="">
+                        </div>
+                        <div class="files-section__name">
+                            Фото
+                            <span class="files-section__count js-files-count">
+                                —
+                            </span>
+                        </div>
+                    </li>
+                    <li class="js-tab js-files-tab" data-title="Гифки" data-page="0" data-id="2" data-item="5">
+                        <div class="image-wrapper">
+                            <img src="1%20%D1%81%D1%82%D1%80_files/frame.svg" alt="">
+                        </div>
+                        <div class="files-section__name">
+                            Гифки
+                            <span class="files-section__count js-files-count">
+                                —
+                            </span>
+                        </div>
+                    </li>
+                    <li class="js-tab js-files-tab" data-title="Аудио" data-page="0" data-id="3" data-item="4">
+                        <div class="image-wrapper">
+                            <img src="1%20%D1%81%D1%82%D1%80_files/music.svg" alt="">
+                        </div>
+                        <div class="files-section__name">
+                            Аудио
+                            <span class="files-section__count js-files-count">
+                                —
+                            </span>
+                        </div>
+                    </li>
+                    <li class="js-tab js-files-tab" data-title="Видео" data-page="0" data-id="4" data-item="2">
+                        <div class="image-wrapper">
+                            <img src="1%20%D1%81%D1%82%D1%80_files/video.svg" alt="">
+                        </div>
+                        <div class="files-section__name">
+                            Видео
+                            <span class="files-section__count js-files-count">
+                                —
+                            </span>
+                        </div>
+                    </li>
+                    <li class="js-tab js-files-tab" data-title="Документы" data-page="0" data-id="5" data-item="3">
+                        <div class="image-wrapper">
+                            <img src="1%20%D1%81%D1%82%D1%80_files/document_002.svg" alt="">
+                        </div>
+                        <div class="files-section__name">
+                            Документы
+                            <span class="files-section__count js-files-count">
+                                —
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="wide-column">
+            <div class="remodal__ui-tab-content tab-1">
+                <div class="remodal__overflow-wrapper -after">
+                    <div class="files-control-header">
+                        <div class="extra-header js-section-header">
+    <div class="js-select-mode-btn">Управление</div>
+    <div class="close js-select-mode-elem js-cancel-select-mode hidden">
+        Отменить
+    </div>
+    <div class="divide js-select-mode-elem hidden"></div>
+    <div class="js-select-mode-elem js-select-all-btn hidden">
+        Выбрать все
+    </div>
+    <div class="divide js-select-mode-elem hidden"></div>
+    <div class="js-select-mode-elem hidden">
+        Удалить (<span class="js-selected-items-counter">0</span>)
+    </div>
+
+    
+
+</div>
+                    </div>
+
+                    <ul class="files-list js-tab-content" data-tab="1" data-container="files-list">
+                    </ul>
+                    <div class="empty-list hidden js-no-results">
+                        <p>
+                            Нет ни одного фото
+                        </p>
+                        <span class="files-remodal-instruction-link">
+                            Как загрузить?
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="remodal__ui-tab-content tab-2">
+                <div class="remodal__overflow-wrapper">
+                    <div class="files-control-header">
+                        <div class="extra-header js-section-header">
+    <div class="js-select-mode-btn">Управление</div>
+    <div class="close js-select-mode-elem js-cancel-select-mode hidden">
+        Отменить
+    </div>
+    <div class="divide js-select-mode-elem hidden"></div>
+    <div class="js-select-mode-elem js-select-all-btn hidden">
+        Выбрать все
+    </div>
+    <div class="divide js-select-mode-elem hidden"></div>
+    <div class="js-select-mode-elem hidden">
+        Удалить (<span class="js-selected-items-counter">0</span>)
+    </div>
+
+    
+
+</div>
+                    </div>
+
+                    <ul class="files-list js-tab-content" data-tab="5" data-container="files-list">
+                    </ul>
+                    <div class="empty-list hidden js-no-results">
+                        <p>
+                            Нет ни одной гифки
+                        </p>
+                        <span class="files-remodal-instruction-link">
+                            Как загрузить?
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="remodal__ui-tab-content tab-3">
+                <div class="remodal__overflow-wrapper">
+                    <div class="files-control-header">
+                        <div class="extra-header js-section-header">
+    <div class="js-select-mode-btn">Управление</div>
+    <div class="close js-select-mode-elem js-cancel-select-mode hidden">
+        Отменить
+    </div>
+    <div class="divide js-select-mode-elem hidden"></div>
+    <div class="js-select-mode-elem js-select-all-btn hidden">
+        Выбрать все
+    </div>
+    <div class="divide js-select-mode-elem hidden"></div>
+    <div class="js-select-mode-elem hidden">
+        Удалить (<span class="js-selected-items-counter">0</span>)
+    </div>
+
+    
+        <button class="extra-header__search-btn js-search-ui-btn" data-tooltip=""></button>
+        <div class="remodal__files-search-wrapper" data-tooltip-ignore="">
+            <input type="text" placeholder="Поиск">
+        </div>
+    
+</div>
+                    </div>
+
+                    <ul class="files-list js-tab-content" data-tab="4" data-container="files-list">
+                    </ul>
+                    <div class="empty-list hidden js-no-results">
+                        <p>Нет ни одного аудиофайла</p>
+                        <span class="files-remodal-instruction-link">
+                            Как загрузить?
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="remodal__ui-tab-content tab-4">
+                <div class="remodal__overflow-wrapper -after">
+                    <div class="files-control-header js-video-search-container">
+                        <div class="extra-header js-section-header">
+    <div class="js-select-mode-btn">Управление</div>
+    <div class="close js-select-mode-elem js-cancel-select-mode hidden">
+        Отменить
+    </div>
+    <div class="divide js-select-mode-elem hidden"></div>
+    <div class="js-select-mode-elem js-select-all-btn hidden">
+        Выбрать все
+    </div>
+    <div class="divide js-select-mode-elem hidden"></div>
+    <div class="js-select-mode-elem hidden">
+        Удалить (<span class="js-selected-items-counter">0</span>)
+    </div>
+
+    
+        <button class="extra-header__search-btn js-search-ui-btn" data-tooltip=""></button>
+        <div class="remodal__files-search-wrapper" data-tooltip-ignore="">
+            <input type="text" placeholder="Поиск">
+        </div>
+    
+</div>
+                    </div>
+
+                    <ul class="files-list js-tab-content" data-tab="2" data-container="files-list">
+                    </ul>
+                    <div class="empty-list hidden js-no-results">
+                        <p>Нет ни одного видео</p>
+                        <span class="files-remodal-instruction-link">
+                            Как загрузить?
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="remodal__ui-tab-content tab-5">
+                <div class="remodal__overflow-wrapper">
+                    <div class="files-control-header">
+                        <div class="extra-header js-section-header">
+    <div class="js-select-mode-btn">Управление</div>
+    <div class="close js-select-mode-elem js-cancel-select-mode hidden">
+        Отменить
+    </div>
+    <div class="divide js-select-mode-elem hidden"></div>
+    <div class="js-select-mode-elem js-select-all-btn hidden">
+        Выбрать все
+    </div>
+    <div class="divide js-select-mode-elem hidden"></div>
+    <div class="js-select-mode-elem hidden">
+        Удалить (<span class="js-selected-items-counter">0</span>)
+    </div>
+
+    
+        <button class="extra-header__search-btn js-search-ui-btn" data-tooltip=""></button>
+        <div class="remodal__files-search-wrapper" data-tooltip-ignore="">
+            <input type="text" placeholder="Поиск">
+        </div>
+    
+</div>
+                    </div>
+                    <!--
+                    <div class="block-notification block-notification--inline">
+                        Чтобы бот мог отправлять документы, после их загрузки в Робочат нужно менять их тип с «личного»
+                        на «другой» в разделе <a href="https://vk.com/docs" target="_blank">Документы</a> во ВКонтакте.
+                        <br><a href="#0" class="inline-link" target="_blank">Читать подробнее</a>
+                    </div>
+                    -->
+                    <ul class="files-list js-tab-content" data-tab="3" data-container="files-list">
+                    </ul>
+                    <div class="empty-list hidden js-no-results">
+                        <p>Нет ни одного документа</p>
+                        <span class="files-remodal-instruction-link">
+                            Как загрузить?
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="remodal__ui-tab-content tab-6">
+                <div class="remodal__overflow-wrapper -after">
+                    <div class="files-control-header">
+                        <div class="files-control-header__select">
+                            Отправлять
+                            <label class="ui-select" data-tooltip="">
+                                <span class="ui-select__arrows"></span>
+                                <span>все разом (10 макс.)</span>
+                                <ul class="ui-select__tooltip" data-tooltip-ignore="" id="attachments-num-select">
+                                    <li class="js-select-item active" data-id="1">
+                                        все разом (10 макс.)
+                                    </li>
+                                    <li class="js-select-item" data-id="2">
+                                        1 случайный
+                                    </li>
+                                    <li class="js-select-item" data-id="3">
+                                        2 случайных
+                                    </li>
+                                    <li class="js-select-item" data-id="4">
+                                        3 случайных
+                                    </li>
+                                    <li class="js-select-item" data-id="5">
+                                        4 случайных
+                                    </li>
+                                </ul>
+                            </label>
+                        </div>
+                        <div class="cross">
+
+                        </div>
+                    </div>
+                    <ul class="files-list files-list--attached js-tab-content js-select-mode" data-tab="0" id="reply-attachments-content-tab"></ul>
+                    <div class="empty-list hidden js-no-results">К ответу не прикреплён ни один файл</div>
+                </div>
+            </div>
+        </main>
+    </content>
+</div></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal--default remodal--keyboard hidden remodal-is-initialized remodal-is-closed" id="message-keyboard-modal" data-remodal-options="hashTracking: true,closeOnOutsideClick: false" tabindex="-1" data-remodal="3">
+    <div class="columns-wrap">
+        <div class="wide-column">
+            <header class="wide-column__header">
+                <h2>
+                    Клавиатура
+                    <input class="ui-toggler ui-toggler--red" id="bot-keyboard-status-checkbox" type="checkbox">
+                    <label for="bot-keyboard-status-checkbox"></label>
+                </h2>
+                <button class="close-modal-btn" data-remodal-action="close"></button>
+            </header>
+            
+
+            <div class="wide-column__content">
+                                                    <div class="block-notification block-notification--inline red">
+                        <p>
+                            Клавиатура работает только для сообществ с тарифом "Начальный" или выше.
+                        </p>
+                        <div>
+                            <a href="https://robochat.io/balance" class="inline-link" target="_blank">Купить подписку</a>
+                        </div>
+                    </div>
+                                    <div class="block-notification block-notification--inline yellow hidden">
+                        Для работы клавиатуры обязательно должны быть включены
+                        <a href="https://vk.com/club194773049?act=messages&amp;tab=bots" target="_blank">"Возможности
+                            ботов"</a> в настройках группы ВКонтакте.
+                        <div class="hide-message" id="hide-keyboard-notification">
+                            Скрыть уведомление
+                        </div>
+                    </div>
+                                <div class="empty-list" id="bot-keyboard-empty-list">
+                    <img src="1%20%D1%81%D1%82%D1%80_files/keyboard_black.svg" alt="">
+                    <p>
+                        Нет добавленных кнопок.<br>
+                        Перетаскивайте их чтобы менять <br>местами и построить в один ряд
+                    </p>
+                </div>
+                <div class="btns-editor-wrap">
+                    <div class="btns-editor" id="keyboard-buttons-container"></div>
+                    <div class="add-new-btn" id="add-new-keyboard-btn">
+                        Новая кнопка<img src="1%20%D1%81%D1%82%D1%80_files/plus_gray.svg" alt="" class="inline-icon">
+                    </div>
+                </div>
+            </div>
+
+
+            <footer class="wide-column__footer">
+                <div style="display: flex;flex-direction: column;text-align: left;">
+                    <div>
+                        <div class="ui-textarea-toolbar__btn ui-textarea-toolbar__btn--options" style="z-index: 3;background-color: transparent;">
+                            <div class="ui-control-list" style="width: 270px;">
+                                <ul class="ui-menu-list">
+                                    <li class="js-modal-keyboard-option" id="bot-keyboard-one-time-checkbox">
+                                        <div class="ui-tooltip right">
+                                            <p class="title">
+                                                Не закрывать
+                                            </p>
+                                            <p>
+                                                Клавиатура не будет закрываться после нажатия по её кнопкам.
+                                            </p>
+                                            <p>
+                                                Включите опцию только если кнопки предполагают несколько нажатий подряд,
+                                                например, в меню или для отправки фото.
+                                            </p>
+                                        </div>
+                                        <img src="1%20%D1%81%D1%82%D1%80_files/pin.svg" alt="">
+                                        <p>Не закрывать клавиатуру</p>
+                                    </li>
+                                    <li class="js-modal-keyboard-option" id="bot-keyboard-unsubscribe-button">
+                                        <div class="ui-tooltip right">
+                                            <p class="title">
+                                                Добавить кнопку "Отписаться от рассылок"
+                                            </p>
+                                            <p>
+                                                Бот добавит в клавиатуре кнопку "Отписаться от рассылок", при нажатии
+                                                которой человек будет отписан от рассылок Робочата.
+                                            </p>
+                                            <p>
+                                                Пользователи, отписанные от рассылок, будут видеть вместо кнопки
+                                                "Отписаться от рассылок" кнопку "Подписаться на рассылки".
+                                            </p>
+                                            <p>
+                                                <img src="1%20%D1%81%D1%82%D1%80_files/unsub-btn.png" alt="">
+                                            </p>
+                                        </div>
+                                        <img src="1%20%D1%81%D1%82%D1%80_files/cancel.svg" alt="">
+                                        <p>
+                                            Кнопка "Отписаться от рассылок"
+                                        </p>
+                                    </li>
+
+                                    <li class="js-modal-keyboard-option hidden" id="bot-keyboard-offer-button">
+                                        <div class="ui-tooltip right">
+                                            <p class="title">
+                                                Добавить кнопку «Акция за 9 руб.»
+                                            </p>
+                                            <p>
+                                                Клавиатура будет иметь кнопку с ссылкой на покупку VIP за 9 рублей.
+                                            </p>
+                                        </div>
+                                        <img src="1%20%D1%81%D1%82%D1%80_files/pay.svg" alt="">
+                                        <p>
+                                            Кнопка "Акция за 9 руб."
+                                        </p>
+                                    </li>
+
+                                    <li class="js-modal-keyboard-option" id="bot-keyboard-vk-pay-button">
+                                        <div class="ui-tooltip right">
+                                            <p class="title">
+                                                Добавить кнопку "Оплатить через VK Pay"
+                                            </p>
+                                            <p>
+                                                Ваше сообщество должно иметь возможность принимать платежи через VK Pay.
+                                            </p>
+                                            <p>
+                                                <img src="1%20%D1%81%D1%82%D1%80_files/vk-pay-btn.png" alt="">
+                                            </p>
+                                        </div>
+                                        <img src="1%20%D1%81%D1%82%D1%80_files/pay.svg" alt="">
+                                        <p>
+                                            Кнопка "Оплатить через VK Pay"
+                                        </p>
+                                    </li>
+
+                                </ul>
+
+                                <div class="hidden" style="padding: 8px 10px;">
+                                    <input type="text" class="form-control" placeholder="Сумма платежа" style="background-color: #fcfcfc;" id="bot-keyboard-vk-pay-amount">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div>
+                    
+                    <button class="default-btn default-btn--primary" id="save-bot-keyboard">
+                        Сохранить изменения
+                    </button>
+                </div>
+
+
+                
+            </footer>
+        </div>
+    </div>
+
+</div></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal--default remodal--attach-post remodal--medium-width hidden remodal-is-initialized remodal-is-closed" id="attach-post-remodal" tabindex="-1" data-remodal="4">
+    <header class="remodal__header" data-active-tab="5">
+        <button class="close-modal-btn" data-remodal-action="close"></button>
+        <h3>
+            Прикрепить запись или видео
+        </h3>
+        <p class="subtext">
+            Выберите, какие записи будут прикреплены к сообщению
+        </p>
+    </header>
+    <div class="remodal__content">
+                    <div class="block-notification block-notification--inline border-top red">
+                Функция работает только для сообществ с тарифом "Начальный" или выше.
+                <div>
+                    <a href="https://robochat.io/balance" class="inline-link" target="_blank">Оплатить
+                        сообщество</a>
+                </div>
+            </div>
+                <div class="attach-posts-list js-short-view">
+            <div class="attach-posts__item">
+                <img src="1%20%D1%81%D1%82%D1%80_files/clock.svg" alt="" class="image">
+                <div class="title">
+                    <span>
+                        Последний пост сообщества
+                    </span>
+                </div>
+                <input name="attach-post" type="radio" class="nice-checkbox js-attachments-radio" id="last-post" data-type="1">
+                <label for="last-post"></label>
+            </div>
+
+            <div class="attach-posts__item colored">
+                <img src="1%20%D1%81%D1%82%D1%80_files/video-player.svg" alt="" class="image">
+                <div class="title">
+                    <span>
+                        Случайное видео из альбома ВКонтакте
+                    </span>
+                </div>
+                <span class="c-tooltip absolute">
+                    ?
+                    <span class="c-tooltip__content">
+                        <p class="title">
+                            Случайное видео из альбома
+                        </p>
+                        <p>
+                            Чтобы бот отправлял случайное видео из 
+альбома, воспользуйтесь плагином "Случайное видео из альбома ВКонтакте" в
+ расширенном режиме ответа.
+                        </p>
+                    </span>
+                </span>
+            </div>
+
+            <div class="attach-posts__item">
+                <img src="1%20%D1%81%D1%82%D1%80_files/pin_002.svg" alt="" class="image">
+                <div class="title">
+                    <span>
+                        Закрепленный пост сообщества
+                    </span>
+                </div>
+                <input name="attach-post" type="radio" class="nice-checkbox js-attachments-radio" id="pinned-post" data-type="2">
+                <label for="pinned-post"></label>
+            </div>
+            <div class="attach-posts__item">
+                <img src="1%20%D1%81%D1%82%D1%80_files/random.svg" alt="" class="image">
+                <div class="title">
+                    <span>
+                        Случайный пост из последних
+                    </span>
+                    <label class="ui-select" data-tooltip="">
+                        <span class="ui-select__arrows"></span>
+                        <span class="js-settings-value">500</span>
+                        <ul class="ui-select__tooltip" data-tooltip-ignore="">
+                            <li class="js-select-item active" data-id="500">500</li>
+                            <li class="js-select-item" data-id="200">200</li>
+                            <li class="js-select-item" data-id="100">100</li>
+                            <li class="js-select-item" data-id="50">50</li>
+                            <li class="js-select-item" data-id="10">10</li>
+                        </ul>
+                    </label>
+                    <span class="c-tooltip">
+                        ?
+                        <span class="c-tooltip__content center">
+                            <p class="title">
+                                Случайный пост
+                            </p>
+                            <p>
+                                Бот будет игнорировать репосты из других сообществ и записи, помеченные как Рекламные.
+                            </p>
+                        </span>
+                    </span>
+                </div>
+                <input name="attach-post" type="radio" class="nice-checkbox js-attachments-radio" id="random-post" data-type="3">
+                <label for="random-post"></label>
+            </div>
+            <div class="link-wrapper">
+                <div class="attach-posts__item link">
+                    <img src="1%20%D1%81%D1%82%D1%80_files/link.svg" alt="" class="image">
+                    <div class="title">
+                    <span>
+                        Прикрепить пост, видео или товар ВКонтакте по ссылке
+                    </span>
+                        <span class="c-tooltip">
+                        ?
+                        <span class="c-tooltip__content" style="width: 340px">
+                            <p class="title">
+                                Пример ссылки:
+                            </p>
+                            <p style="white-space: nowrap;margin-top: 1px;">
+                                https://vk.com/robochat?w=wall-133366272_54
+                            </p>
+                        </span>
+                    </span>
+                    </div>
+                    <input name="attach-post" type="radio" class="nice-checkbox js-attachments-radio" id="link-post" data-type="4">
+                    <label for="link-post"></label>
+                </div>
+                <div class="form-wrap hidden" id="post-links-content">
+                    <textarea class="form-control" placeholder="Ссылки на посты или видео ВКонтакте, каждая ссылка с новой строки..."></textarea>
+                    <div class="label-wrapper">
+                        <input type="checkbox" class="nice-checkbox" id="links-random-post">
+                        <label for="links-random-post">
+                            выбирать из них
+                            <label class="ui-select" data-tooltip="">
+                                <span class="ui-select__arrows"></span>
+                                <span class="js-settings-value">1</span>
+                                <ul class="ui-select__tooltip" data-tooltip-ignore="">
+                                    <li class="js-select-item active" data-id="1">1</li>
+                                    <li class="js-select-item" data-id="2">2</li>
+                                    <li class="js-select-item" data-id="3">3</li>
+                                    <li class="js-select-item" data-id="4">4</li>
+                                    <li class="js-select-item" data-id="5">5</li>
+                                </ul>
+                            </label>
+                            случайно <span class="c-tooltip">
+                        ?
+                        <span class="c-tooltip__content">
+                            <p>
+                                Если не отмечено, то бот отправит все записи разом (макс. 10)
+                            </p>
+                        </span>
+                    </span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="remodal__footer">
+        <div></div>
+        <div>
+            <button class="default-btn default-btn--outline" data-remodal-action="close">Отмена</button>
+            <button class="default-btn default-btn--primary" id="save-reply-attachments-btn">Сохранить изменения
+            </button>
+        </div>
+    </div>
+</div></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal--default remodal--deep-link hidden remodal-is-initialized remodal-is-closed" id="ref-link-modal" tabindex="-1" data-remodal="5">
+    <header class="remodal__header" data-active-tab="1">
+        <button class="close-modal-btn" data-remodal-action="close"></button>
+        <h3>
+            Ссылка на команду
+            <input class="ui-toggler ui-toggler--red" id="ref-link-status-on" type="checkbox">
+            <label for="ref-link-status-on"></label>
+        </h3>
+        <p class="subtext">
+            Мгновенный переход на команду бота
+        </p>
+    </header>
+    <div class="remodal__content">
+        <p>
+            Установите и используйте параметры ссылки, чтобы позволить пользователям начинать диалог с ботом с этой
+            команды или ответа.
+        </p>
+        <p>
+            Параметр перехода будет записан в пользовательскую переменную
+            <span class="text-var number">{{ref}}</span>
+        </p>
+        <div class="modal-block-link">
+            <div class="link-to-block">
+                https://vk.me/club194773049?ref=
+            </div>
+            <div class="link-ref">
+                <input type="text" class="form-control" id="ref-link-param">
+            </div>
+        </div>
+    </div>
+    <div class="remodal__footer">
+        <div>
+            <button class="default-btn default-btn--outline" id="copy-ref-link-btn" data-clipboard-text="https://vk.me/club194773049">
+                <img src="1%20%D1%81%D1%82%D1%80_files/copy_gray.svg" alt="" class="btn-icon">
+                Копировать ссылку
+            </button>
+        </div>
+        <div>
+            <button class="default-btn default-btn--primary" id="save-ref-link-btn">Сохранить изменения</button>
+        </div>
+    </div>
+</div></div></div>
+</div>
+<!-- ======= .layout END ======= -->
+
+
+
+
+
+
+
+
+<div style="position: absolute; clip: rect(0, 0, 0, 0);" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <symbol id="icon-cross" viewBox="0 0 512.001 512.001">
+            <g>
+                <g>
+                    <path d="M294.111,256.001L504.109,46.003c10.523-10.524,10.523-27.586,0-38.109c-10.524-10.524-27.587-10.524-38.11,0L256,217.892
+			L46.002,7.894c-10.524-10.524-27.586-10.524-38.109,0s-10.524,27.586,0,38.109l209.998,209.998L7.893,465.999
+			c-10.524,10.524-10.524,27.586,0,38.109c10.524,10.524,27.586,10.523,38.109,0L256,294.11l209.997,209.998
+			c10.524,10.524,27.587,10.523,38.11,0c10.523-10.524,10.523-27.586,0-38.109L294.111,256.001z"></path>
+                </g>
+            </g>
+        </symbol>
+        <symbol id="icon-search" viewBox="0 0 512 512">
+            <g>
+                <path d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5   S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9   C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z"></path>
+            </g>
+        </symbol>
+        <symbol id="icon-plus" viewBox="0 0 42 42">
+            <polygon points="42,19 23,19 23,0 19,0 19,19 0,19 0,23 19,23 19,42 23,42 23,23 42,23 "></polygon>
+        </symbol>
+    </svg>
+</div>
+
+
+
+
+<div class="dialog-container" id="variables-remodal">
+    <div class="dialog-modal dialog-modal--vars dialog-modal--animatedY">
+        <div class="dialog-content__inner">
+            <div class="dialog-header">
+                <button class="update-vars-btn" id="reset-vars-btn">
+                <span class="text-tooltip text-tooltip--bottom right">
+                    Сброить переменные
+                </span>
+                </button>
+                <div class="dialog-modal__action">
+                    <div class="dialog-modal__close-btn" role="button" id="variables-modal-close-action">
+                        <i class="icon">
+                            <svg class="icon-svg">
+                                <use xlink:href="#icon-cross"></use>
+                            </svg>
+                        </i>
+                    </div>
+                </div>
+                <h3 class="dialog-header__title" id="">
+                    <div class="dialog-header__title-text">
+                        Переменные
+                    </div>
+                    <div class="add-var-btn" role="button" id="add-user-variable-btn">
+                        <div class="add-var-btn__icon">
+                            <i class="icon icon--spread">
+                                <svg class="icon-svg">
+                                    <use xlink:href="#icon-plus"></use>
+                                </svg>
+                            </i>
+                        </div>
+                    </div>
+                </h3>
+            </div>
+            <div class="dialog-content">
+                <div class="search-line">
+                    <div class="search-line__inner">
+                        <div class="search-line__icon">
+                            <i class="icon">
+                                <svg class="icon-svg">
+                                    <use xlink:href="#icon-search"></use>
+                                </svg>
+                            </i>
+                        </div>
+                        <input type="text" placeholder="Название или описание переменной..." class="search-line__form-control search-line__form-control--white" id="variables-list-search-input">
+                    </div>
+                </div>
+                <div class="responsivetable-wrapper">
+                    <div class="responsivetable no-mobile">
+                        <div class="responsivetable__row" id="variables-table-header">
+                            <div>
+                                Название
+                            </div>
+                            <div>
+                                Тип
+                            </div>
+                            <div>
+                                По умолчанию
+                            </div>
+                            <div>
+                                Описание
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empty-list js-no-results hidden"><p>Ничего не найдено</p></div>
+            </div>
+        </div>
+        <div class="dialog-content__inner hidden" id="variable-view-tab">
+            <div class="dialog-header">
+                <div class="dialog-modal__action">
+                    <div class="dialog-modal__close-btn" role="button" id="close-variable-view-tab">
+                        <i class="icon">
+                            <svg class="icon-svg">
+                                <use xlink:href="#icon-cross"></use>
+                            </svg>
+                        </i>
+                    </div>
+                </div>
+                <h3 class="dialog-header__title" id="">
+                    <div class="dialog-header__title-text" id="current-variable-name">
+                        {{  Имя  }}                    </div>
+                </h3>
+            </div>
+            <div class="dialog-content">
+                <div class="" style="padding: 30px;">
+                    <div class="" id="variable-view-tab" data-id="260948">
+                        <ul class="form-list">
+                            <li>
+                                <div class="form__label">
+                                    Название:
+                                </div>
+                                <div>
+                                    <div class="supervar-name__form-wrap relative">
+                                        <input type="text" class="form-control" placeholder="" id="current-variable-input" name="name">
+                                        <div class="ui-tooltip right">
+                                            <p>
+                                                Название переменной должно начинаться с буквы и заканчиваться буквой или
+                                                цифрой.
+                                                Допускаются нижнее подчёркивание и тире.
+                                            </p>
+                                            <p class="title">
+                                                Неправильно:
+                                            </p>
+                                            <p>
+                                                111<br>
+                                                имя_<br>
+                                                hello--world<br>
+                                            </p>
+                                            <p class="title">
+                                                Правильно:
+                                            </p>
+                                            <p>
+                                                имя_1<br>
+                                                итоговая-сумма<br>
+                                                helloWorld<br>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form__label">
+                                    Описание:
+                                </div>
+                                <div>
+                                    <div>
+                                        <input type="text" class="form-control" placeholder="Например, баланс" name="description">
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form__label">
+                                    Тип переменной:
+                                </div>
+                                <div>
+                                    <div class="select-wrapper">
+                                        <select name="value_type_id" id="variable-type-select" class="form-control">
+                                            <option value="1" selected="selected">числовая</option>
+                                            <option value="0">строковая</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form__label">
+                                    Вид переменной:
+                                </div>
+                                <div>
+                                    <div class="dropdown-wrapper">
+                                        <button type="button" class="dropdown-toggle form-control" role="button" aria-expanded="false" data-tooltip="" name="type_id" id="variable-type-btn" data-value="1">
+                                <span class="filter-option js-filter-dropdown-active-options">
+                                                обычная
+                                            </span>
+                                            <span class="arrow"></span>
+                                        </button>
+                                        <div class="dropdown-menu" data-tooltip-ignore="">
+
+                                            <ul>
+                                                <li class="js-select-item js-selected" data-id="1">
+                                                    обычная
+                                                </li>
+                                                <li class="js-select-item" data-id="2">
+                                                    глобальная
+                                                </li>
+                                                <li class="js-select-item hidden" data-id="3" id="variable-dynamic-type" data-number-var="">
+                                                    динамическая
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="ui-tooltip right">
+                                            <p class="title">
+                                                Обычная
+                                            </p>
+                                            <p class="">
+                                                Переменная, уникальная для каждого пользователя.
+                                            </p>
+                                            <p class="title">
+                                                Глобальная
+                                            </p>
+                                            <p class="">
+                                                Глобальная переменная принимает одно и то же значение для всех
+                                                пользователей
+                                                бота.
+                                                При изменении её значения оно меняется для всех.
+                                            </p>
+                                            <p class="title hidden" data-number-var="">
+                                                Динамическая
+                                            </p>
+                                            <p data-number-var="" class="hidden">
+                                                Динамическая переменная автоматически меняет своё значение с течением
+                                                времени.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form__label">
+                                    Значение по-умолчанию:
+                                </div>
+                                <div>
+                                    <input type="text" class="form-control  " placeholder="" value="0" name="default_value">
+                                </div>
+                            </li>
+                            <li data-const-hide="" data-number-var="" class="hidden">
+                                <div class="form__label">
+                                    Мин. значение:
+                                </div>
+                                <div class="relative">
+                                    <input type="number" class="form-control  " placeholder="нет" name="min_value">
+                                    <div class="ui-tooltip right">
+                                        <p class="title">
+                                            Минимальное значение
+                                        </p>
+                                        <p>
+                                            Величина переменной не сможет быть меньше указанного значения.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li data-const-hide="" data-number-var="" class="hidden">
+                                <div class="form__label">
+                                    Макс. значение:
+                                </div>
+                                <div class="relative">
+                                    <input type="number" class="form-control  " placeholder="нет" name="max_value">
+                                    <div class="ui-tooltip right">
+                                        <p class="title">
+                                            Максимальное значение
+                                        </p>
+                                        <p>
+                                            Величина переменной не сможет превысить указанное значение.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li data-dynamic="" class="hidden">
+                                <div class="form__label">
+                                    Изменять значение каждые:
+                                </div>
+                                <div>
+                                    <input class="inline-input  " value="60" maxlength="3" type="number" name="value_change_period">
+                                    <select name="value_change_unit" class="form-control inline-images">
+                                        <option value="1" selected="selected">минут</option>
+                                        <option value="2">часов</option>
+                                        <option value="3">дней</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li data-dynamic="" class="hidden">
+                                <div class="form__label">
+                                    Значение после изменения:
+                                </div>
+                                <div class="relative">
+                                    <input class="form-control  " placeholder="" value="0" type="text" name="value_change">
+                                    <div class="ui-tooltip right">
+                                        <p class="title">
+                                            Обновляемое значение
+                                        </p>
+                                        <p>
+                                            Укажите значение, которое будет принимать переменная через выбранный период
+                                            времени.
+                                        </p>
+                                        <p>
+                                            Для изменения переменной относительно её значения, первым символом укажите
+                                            математический знак (+ - * /).
+                                        </p>
+                                        <p>
+                                            Например, напишите "+1" или "/2" и значение
+                                            будет увеличиваться на 1 или делиться на 2.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dialog-content__footer">
+                    <button class="default-btn default-btn--primary" id="save-variable-btn">Сохранить изменения</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="page-overlay"></div>
+
+
+
+
+<script src="1%20%D1%81%D1%82%D1%80_files/clipboard.js" type="text/javascript"></script>
+<script src="1%20%D1%81%D1%82%D1%80_files/symbol-es6.js"></script>
+<script src="1%20%D1%81%D1%82%D1%80_files/build.js" type="text/javascript"></script>
+<script src="1%20%D1%81%D1%82%D1%80_files/common.js" type="text/javascript"></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter49303681 = new Ya.Metrika2({
+                    id:49303681,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/49303681" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="1%20%D1%81%D1%82%D1%80_files/js"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-105846709-2');
+</script><script type="text/javascript" id="">!function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://vk.com/js/api/openapi.js?156";a.onload=function(){VK.Retargeting.Init("VK-RTRG-259821-8SK7L");VK.Retargeting.Hit()};document.head.appendChild(a)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-259821-8SK7L" style="position:fixed; left:-999px;" alt=""></noscript>
+
+
+<iframe name="ym-native-frame" title="ym-native-frame" style="opacity: 0 !important; width: 0px !important; height: 0px !important; position: absolute !important; left: 100% !important; bottom: 100% !important; border: 0px none !important;" aria-hidden="true" frameborder="0"></iframe><div class="remodal-overlay remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal--users hidden remodal-is-initialized remodal-is-closed" id="vars-users-modal" tabindex="-1" data-remodal="6">
+    <div class="remodal__header">
+        <button class="close-modal-btn" data-remodal-action="close"></button>
+        <h3>
+            Пользователи
+        </h3>
+    </div>
+    <div class="remodal__content remodal__overflow-wrapper" id="vars-users-list">
+        <div class="supervars-search-wrap">
+            <input type="text" class="supervars-search__form-control" placeholder="Найти пользователя..." id="vars-users-search-input">
+        </div>
+        <div class="modal-table-wrap">
+            <div class="responsivetable responsivetable--action responsivetable--list-style modal-table">
+                <div id="variables-users-table-header">
+                    <div>Пользователь</div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+            <div class="empty-list hidden">
+                <p style="max-width: 340px;margin: 0 auto">
+                    Сюда попадают пользователи, написавшие боту и измененившие значение переменных.
+                </p>
+            </div>
+            <button class="inline-btn js-load-users hidden">Показать ещё</button>
+        </div>
+    </div>
+    <div class="remodal__header hidden">
+        <button class="close-modal-btn" id="close-vars-user-view"></button>
+        <ul class="form-list">
+            <li>
+                <div class="form__label">
+                    <img src="" data-object="photo" alt="" class="avatar">
+                </div>
+                <div>
+                    <div class="name" data-object="name"></div>
+                    <span class="gray" data-object="vars_count"></span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="remodal__content colored hidden" id="vars-content-list">
+        <div>
+            <ul class="form-list form-list--vars"></ul>
+        </div>
+    </div>
+    <div class="remodal__footer hidden">
+        <div></div>
+        <div>
+            <button class="default-btn default-btn--primary" id="update-user-variables-values">Сохранить
+                изменения
+            </button>
+        </div>
+    </div>
+</div></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal--default remodal--connect-template remodal-is-initialized remodal-is-closed" id="connect-template-bot-modal" tabindex="-1" data-remodal="7">
+    <header class="remodal__header">
+        <button class="close-modal-btn" data-remodal-action="close"></button>
+        <h3>
+            Подключить сообщество
+        </h3>
+        <div class="subtext">
+            Выберите сообщество для подключения к шаблону
+        </div>
+    </header>
+    <div class="remodal__content">
+        <div class="block-notification block-notification--inline yellow">
+            <p>Если ваше сообщество отсутствует в списке, значит вам нужно сперва подключить его к Робочату.</p>
+            <a href="https://robochat.io/connect" target="_blank" class="inline-link">Подключить сообщество</a>
+        </div>
+        <div class="table table--animated-rows" id="templates-bots-list"></div>
+        <div class="empty-list">
+            <p>
+                Подключенных сообществ к Робочату не найдено<br>
+                <a href="https://robochat.io/connect" class="inline-link">Подключить сообщество</a>
+            </p>
+        </div>
+    </div>
+    <div class="remodal__footer">
+        <div></div>
+        <div>
+            <button class="default-btn default-btn--outline" data-remodal-action="close">Отмена</button>
+            <button class="default-btn default-btn--turquoise js-action-btn disabled" id="connect-template">
+                <span>Выберите сообщество</span>
+            </button>
+        </div>
+    </div>
+</div></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal--faq-modal remodal-is-initialized remodal-is-closed" id="faq-page-remodal" tabindex="-1" data-remodal="8"></div></div><ym-measure class="ym-viewport" style="display: block; inset: 0px; height: 100vh; width: 100vw; position: fixed; transform: translate(0px, -100%); transform-origin: 0px 0px 0px;"></ym-measure><ym-measure class="ym-zoom" style="bottom: 100%; position: fixed; width: 100vw;"></ym-measure></body></html>
